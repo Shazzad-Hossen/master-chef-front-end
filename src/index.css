@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.title-bg {
+    background-image: url('./assets/images/bg/gradient1.png');
+    background-repeat: no-repeat;
+    
+}
+.chefbg {
+    background-image: url('./assets/images/bg/chef-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.subsbg {
+  background-image: url('./assets/images/bg/food-banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+.gridCol {
+  grid-template-columns: repeat(4,1fr);
+}
+.LazyLoad {
+  
+  transition: all 1s ease-in-out;
+}
+.is-visible {
+  opacity: 1;
+}
+
